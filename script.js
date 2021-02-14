@@ -1,24 +1,24 @@
-
 //challenge 1
 
 
 // function declaration
-var a = prompt('Write down the base of your triangle');
-var b = prompt('Write down the hieght of your triangle');
 
 function triangleArea() {
-    return a*b/2;
+var b = document.getElementById("b").value;
+var h = document.getElementById("h").value;
+var a =  b*h/2;
+
+document.querySelector(".ta").innerHTML = a;
+
 }
-document.getElementsByClassName('container')[0].innerHTML = triangleArea();
 
 
 // function expression(it is just for having experience)
 
-/*var a = prompt('Write down the base of your triangle');
-var b = prompt('Write down the hieght of your triangle');
-
-var x = function() {
-    return a*b/2;
+/*var b = prompt('Write down the base of your triangle');
+var h = prompt('Write down the hieght of your triangle');
+var a = function() {
+    return b*h/2;
     
 }
-document.getElementsByClassName('container')[0].innerHTML = x(a,b);*/
+document.getElementsByClassName('container')[0].innerHTML = a(b,h);*/
