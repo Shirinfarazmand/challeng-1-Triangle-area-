@@ -7,11 +7,32 @@ body {
     width: 50%;
     background-color: rgb(255, 255, 255);
     font-size: 40px;
-    margin-top: 150px;
-    color: rgb(7, 148, 148);
+    margin-top: 40px;
+    color: rgb(1, 114, 114);
+    height: 800px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 8px 8px rgb(226, 231, 231);
 }
+
+
 h1 {
     text-align: center;
-    color: rgb(241, 143, 50);
+    color: rgb(250, 181, 117);
+}
+
+#b , #h  {
+    background-color: rgb(253, 201, 167);
+    border: 0px;
+    color:  rgb(0, 119, 113);
+}
+
+.ta {
+    margin-left: 225px;
+    border: 0px;
+    height: 65px;
+    width: 50%;
+    background-color: rgb(253, 201, 167);
+    
 }
 
