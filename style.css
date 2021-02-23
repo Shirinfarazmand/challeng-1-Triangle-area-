@@ -8,10 +8,11 @@ body {
     background-color: rgb(255, 255, 255);
     font-size: 40px;
     color: rgb(1, 114, 114);
-    height: 900px;
+    height: 80%;
     text-align: center;
     border-radius: 20px;
     box-shadow: 8px 8px rgb(226, 231, 231);
+    padding-bottom: 2%;
 }
 
 
